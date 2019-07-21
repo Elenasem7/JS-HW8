@@ -110,9 +110,8 @@
             function arrMax(arr) {
                 let maxAbs = arr[0];
                 for (let i = 1; i < arr.length; i++) {
-                    if (Math.abs(maxAbs) < Math.abs(arr[i])) {
+                    if (Math.abs(maxAbs) < Math.abs(arr[i])) 
                         maxAbs = arr[i]
-                    } maxAbs;
                 }
                 return maxAbs;
             }
@@ -246,7 +245,7 @@
                 let aver = array.reduce((a, c) => a + c) / array.length;
                 if (aver < maxElem) {
                 return true
-                } false;
+                } return false;
             };
             console.log(Average(arr3));
 
